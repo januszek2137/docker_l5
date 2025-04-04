@@ -46,6 +46,7 @@ Wynik działania polecenia:
 ## Potwierdzenie działania kontenera
 
 Użyte polecenie:
+
 ```bash
 docker run -d --name docker_lab5 -p 8080:80 goapp
 ```
@@ -55,9 +56,11 @@ docker run -d --name docker_lab5 -p 8080:80 goapp
 ## Potwierdzenie poprawności działania aplikacji
 
 Użyte polecenie curl do weryfikacji:
+
 ```bash
 curl http://localhost:8080
 ```
+
 Wynik działania curl:
 
 ![Wynik działania curl](screenshots/curl.png)
@@ -65,3 +68,5 @@ Wynik działania curl:
 Zrzut ekranu z przeglądarki:
 
 ![Widok aplikacji w przeglądarce](screenshots/webapp.png)
+
+Autor sprawozdania: Jan Ożga
